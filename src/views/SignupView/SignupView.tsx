@@ -1,7 +1,7 @@
 import Header from "../../components/Header";
-import Login from "../../components/Login";
+import Signup from "../../components/Signup";
 
-export const LoginView = () => {
+export const SignupView = () => {
 	return (
 		<>
 		<Header
@@ -10,7 +10,7 @@ export const LoginView = () => {
 			linkName="Signup"
 			linkUrl="/signup"
 			/>
-		<Login />
+		<Signup />
 		</>
 	)
 };
